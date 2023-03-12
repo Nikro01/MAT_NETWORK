@@ -1,6 +1,6 @@
 # MAT_NETWORK
 MAT NETWORK Bot is discord ( python )
-
+========================================================================================
 import disocrd
 import asyncio
 from discord.ext import commands
@@ -15,3 +15,4 @@ async def on_ready():
     print("[ Bot Is Run ]")
 
 bot.run("token")
+========================================================================================
