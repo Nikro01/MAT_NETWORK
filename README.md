@@ -8,7 +8,7 @@ from discord.ext import commands
 intents = discord.Intents.default()
 bot = discord.Client(intents=intents)
 bot = commands.Bot(command_prefix= "/" , intents= discord.Intents.all())
-token = ("MTA4MzgzODIwNTUyODM5MTY4MA.GTnj07.8hndizaNTkNrno7U45mzn9bhs1IZBwk7ZzLWi4")
+token = ("token bot")
 @bot.event
 async def on_ready():
     print("[ Hello Bro ]")
